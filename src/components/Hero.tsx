@@ -41,6 +41,14 @@ const Hero: React.FC = () => {
               Learn More
             </a>
           </div>
+          
+          {/* Add disclaimer below buttons */}
+          <div className="mt-4 text-xs text-gray-400 max-w-2xl mx-auto animate-fade-in" style={{ animationDelay: "500ms" }}>
+            <p>
+              For educational and informational purposes only. Not intended to replace professional firefighting services 
+              or emergency response. Always contact local emergency services in case of fire.
+            </p>
+          </div>
         </div>
       </div>
       
