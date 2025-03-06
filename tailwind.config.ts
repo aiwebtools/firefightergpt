@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,28 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Custom colors
+				'fire': {
+					100: '#ffebcc',
+					200: '#ffd699',
+					300: '#ffc266',
+					400: '#ffad33',
+					500: '#ff9900',
+					600: '#cc7a00',
+					700: '#995c00',
+					800: '#663d00',
+					900: '#331f00',
+				},
+				'flame': {
+					400: '#FF4500',
+					500: '#FF3800',
+					600: '#CC2D00'
+				},
+				'cyber': {
+					blue: '#0ea5e9',
+					purple: '#8b5cf6',
+					dark: '#0f172a'
 				}
 			},
 			borderRadius: {
@@ -70,26 +93,65 @@ export default {
 			},
 			keyframes: {
 				'accordion-down': {
-					from: {
-						height: '0'
-					},
-					to: {
-						height: 'var(--radix-accordion-content-height)'
-					}
+					from: { height: '0' },
+					to: { height: 'var(--radix-accordion-content-height)' },
 				},
 				'accordion-up': {
-					from: {
-						height: 'var(--radix-accordion-content-height)'
+					from: { height: 'var(--radix-accordion-content-height)' },
+					to: { height: '0' },
+				},
+				'float': {
+					'0%, 100%': { transform: 'translateY(0)' },
+					'50%': { transform: 'translateY(-10px)' },
+				},
+				'pulse-glow': {
+					'0%, 100%': { 
+						opacity: '1',
+						filter: 'brightness(1)',
 					},
-					to: {
-						height: '0'
-					}
-				}
+					'50%': { 
+						opacity: '0.85',
+						filter: 'brightness(1.2)',
+					},
+				},
+				'fade-in': {
+					'0%': { opacity: '0', transform: 'translateY(10px)' },
+					'100%': { opacity: '1', transform: 'translateY(0)' },
+				},
+				'background-shine': {
+					'from': { backgroundPosition: '200% 0' },
+					'to': { backgroundPosition: '0% 0' },
+				},
+				'flame': {
+					'0%, 100%': { transform: 'scaleY(1.05) translateY(-1px)' },
+					'50%': { transform: 'scaleY(0.95) translateY(1px)' },
+				},
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
-			}
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'float': 'float 4s ease-in-out infinite',
+				'pulse-glow': 'pulse-glow 3s ease-in-out infinite',
+				'fade-in': 'fade-in 0.8s ease-out',
+				'background-shine': 'background-shine 8s linear infinite',
+				'flame': 'flame 1.5s ease-in-out infinite',
+			},
+			backgroundImage: {
+				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+				'cyberpunk-glow': 'linear-gradient(45deg, rgba(14, 165, 233, 0.3), rgba(139, 92, 246, 0.3))',
+				'flame-gradient': 'linear-gradient(180deg, #FF4500, #FF6200)',
+				'dark-gradient': 'linear-gradient(to bottom, #0f172a, #1a202c)',
+				'glass-gradient': 'linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05))',
+				'shine': 'linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent)',
+			},
+			boxShadow: {
+				'fire': '0 0 25px rgba(255, 69, 0, 0.6)',
+				'neon': '0 0 10px rgba(14, 165, 233, 0.6)',
+				'glass': '0 8px 32px 0 rgba(0, 0, 0, 0.36)',
+			},
+			backdropFilter: {
+				'glass': 'blur(20px)',
+			},
 		}
 	},
 	plugins: [require("tailwindcss-animate")],
