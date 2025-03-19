@@ -109,7 +109,7 @@ const HowItWorks: React.FC = () => {
             rel="noopener noreferrer"
             className="cyber-button text-base inline-flex items-center justify-center gap-2 bg-gradient-to-r from-fire-600 to-flame-500"
           >
-            Command Center GPT
+            Firefighter AI Command Center GPT
             <ArrowRight className="w-4 h-4" />
           </a>
         </div>

@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Logo from './Logo';
 import { ArrowRight, Mail, Phone } from 'lucide-react';
@@ -31,7 +32,7 @@ const Footer: React.FC = () => {
                 rel="noopener noreferrer"
                 className="cyber-button text-sm inline-flex items-center gap-2 bg-gradient-to-r from-fire-600 to-flame-500"
               >
-                COMMAND CENTER GPT
+                Firefighter AI Command Center GPT
                 <ArrowRight className="w-4 h-4" />
               </a>
             </div>
@@ -58,7 +59,7 @@ const Footer: React.FC = () => {
                   rel="noopener noreferrer"
                   className="text-gray-300 hover:text-fire-400 transition-colors"
                 >
-                  Command Center GPT
+                  Firefighter AI Command Center GPT
                 </a>
               </li>
               <li>

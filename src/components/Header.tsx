@@ -51,7 +51,7 @@ const Header: React.FC = () => {
             rel="noopener noreferrer"
             className="cyber-button text-sm bg-gradient-to-r from-fire-600 to-flame-500"
           >
-            COMMAND CENTER GPT
+            Firefighter AI Command Center GPT
           </a>
           <a href="#faq" className="text-white hover:text-fire-400 transition-colors font-medium">
             FAQ
@@ -99,7 +99,7 @@ const Header: React.FC = () => {
               className="cyber-button text-center bg-gradient-to-r from-fire-600 to-flame-500"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              COMMAND CENTER GPT
+              Firefighter AI Command Center GPT
             </a>
             <a 
               href="#faq" 
