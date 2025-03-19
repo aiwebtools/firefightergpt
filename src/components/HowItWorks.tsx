@@ -100,7 +100,7 @@ const HowItWorks: React.FC = () => {
             rel="noopener noreferrer"
             className="cyber-button text-base inline-flex items-center gap-2"
           >
-            Try Firefighter GPT Now
+            Use Wildfire Firefighter GPT Now
             <ArrowRight className="w-4 h-4" />
           </a>
         </div>

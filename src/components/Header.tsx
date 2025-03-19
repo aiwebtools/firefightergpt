@@ -43,7 +43,7 @@ const Header: React.FC = () => {
             rel="noopener noreferrer"
             className="cyber-button text-sm"
           >
-            USE FIREFIGHTER GPT NOW
+            Use Wildfire Firefighter GPT Now
           </a>
           <a 
             href="https://chatgpt.com/g/g-67dab29f4bb88191baf574b8fbb4cb0d-firefighter-ai-command-center-gpt" 
@@ -90,7 +90,7 @@ const Header: React.FC = () => {
               className="cyber-button text-center"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              USE FIREFIGHTER GPT NOW
+              Use Wildfire Firefighter GPT Now
             </a>
             <a 
               href="https://chatgpt.com/g/g-67dab29f4bb88191baf574b8fbb4cb0d-firefighter-ai-command-center-gpt" 

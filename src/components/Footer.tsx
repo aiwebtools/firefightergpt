@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Logo from './Logo';
 import { ArrowRight, Mail, Phone } from 'lucide-react';
@@ -23,7 +22,7 @@ const Footer: React.FC = () => {
                 rel="noopener noreferrer"
                 className="cyber-button text-sm inline-flex items-center gap-2"
               >
-                USE FIREFIGHTER GPT NOW
+                Use Wildfire Firefighter GPT Now
                 <ArrowRight className="w-4 h-4" />
               </a>
               <a 

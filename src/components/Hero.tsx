@@ -1,3 +1,4 @@
+
 import React from 'react';
 import VideoEmbed from './VideoEmbed';
 const Hero: React.FC = () => {
@@ -27,7 +28,7 @@ const Hero: React.FC = () => {
           animationDelay: "400ms"
         }}>
             <a href="https://chatgpt.com/g/g-9IxNOg9vY-firefighter-gpt" target="_blank" rel="noopener noreferrer" className="cyber-button text-base sm:text-lg">
-              USE FIREFIGHTER GPT NOW
+              Use Wildfire Firefighter GPT Now
             </a>
             <a href="#features" className="px-6 py-3 bg-transparent border-2 border-white/20 hover:border-white/40 text-white rounded-lg 
                         transition-all duration-300 font-medium text-base sm:text-lg hover:bg-white/5">
