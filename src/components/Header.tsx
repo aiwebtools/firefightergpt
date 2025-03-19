@@ -36,7 +36,7 @@ const Header: React.FC = () => {
         <Logo />
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center space-x-8">
+        <nav className="hidden md:flex items-center space-x-6">
           <a 
             href="https://chatgpt.com/g/g-9IxNOg9vY-firefighter-gpt" 
             target="_blank" 
@@ -44,6 +44,14 @@ const Header: React.FC = () => {
             className="cyber-button text-sm"
           >
             USE FIREFIGHTER GPT NOW
+          </a>
+          <a 
+            href="https://chatgpt.com/g/g-67dab29f4bb88191baf574b8fbb4cb0d-firefighter-ai-command-center-gpt" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="cyber-button text-sm bg-gradient-to-r from-fire-600 to-flame-500"
+          >
+            COMMAND CENTER GPT
           </a>
           <a href="#faq" className="text-white hover:text-fire-400 transition-colors font-medium">
             FAQ
@@ -83,6 +91,15 @@ const Header: React.FC = () => {
               onClick={() => setIsMobileMenuOpen(false)}
             >
               USE FIREFIGHTER GPT NOW
+            </a>
+            <a 
+              href="https://chatgpt.com/g/g-67dab29f4bb88191baf574b8fbb4cb0d-firefighter-ai-command-center-gpt" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="cyber-button text-center bg-gradient-to-r from-fire-600 to-flame-500"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              COMMAND CENTER GPT
             </a>
             <a 
               href="#faq" 

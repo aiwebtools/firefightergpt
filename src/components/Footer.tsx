@@ -16,21 +16,52 @@ const Footer: React.FC = () => {
               Elevate your firefighting strategy with Firefighter GPT. Harness the power of real-time 
               data and predictive analytics to effectively master and extinguish fires.
             </p>
-            <a 
-              href="https://chatgpt.com/g/g-9IxNOg9vY-firefighter-gpt" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="cyber-button text-sm inline-flex items-center gap-2"
-            >
-              USE FIREFIGHTER GPT NOW
-              <ArrowRight className="w-4 h-4" />
-            </a>
+            <div className="flex flex-col sm:flex-row gap-3">
+              <a 
+                href="https://chatgpt.com/g/g-9IxNOg9vY-firefighter-gpt" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="cyber-button text-sm inline-flex items-center gap-2"
+              >
+                USE FIREFIGHTER GPT NOW
+                <ArrowRight className="w-4 h-4" />
+              </a>
+              <a 
+                href="https://chatgpt.com/g/g-67dab29f4bb88191baf574b8fbb4cb0d-firefighter-ai-command-center-gpt" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="cyber-button text-sm inline-flex items-center gap-2 bg-gradient-to-r from-fire-600 to-flame-500"
+              >
+                COMMAND CENTER GPT
+                <ArrowRight className="w-4 h-4" />
+              </a>
+            </div>
           </div>
           
           {/* Column 2: Quick Links */}
           <div>
             <h3 className="text-white font-bold text-lg mb-4">Quick Links</h3>
             <ul className="space-y-3">
+              <li>
+                <a 
+                  href="https://chatgpt.com/g/g-9IxNOg9vY-firefighter-gpt" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-gray-300 hover:text-fire-400 transition-colors"
+                >
+                  Firefighter GPT
+                </a>
+              </li>
+              <li>
+                <a 
+                  href="https://chatgpt.com/g/g-67dab29f4bb88191baf574b8fbb4cb0d-firefighter-ai-command-center-gpt" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-gray-300 hover:text-fire-400 transition-colors"
+                >
+                  Command Center GPT
+                </a>
+              </li>
               <li>
                 <a href="#faq" className="text-gray-300 hover:text-fire-400 transition-colors">
                   FAQ
