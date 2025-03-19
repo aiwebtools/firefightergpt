@@ -30,6 +30,9 @@ const Hero: React.FC = () => {
             <a href="https://chatgpt.com/g/g-9IxNOg9vY-firefighter-gpt" target="_blank" rel="noopener noreferrer" className="cyber-button text-base sm:text-lg">
               Use Wildfire Firefighter GPT Now
             </a>
+            <a href="https://chatgpt.com/g/g-67dab29f4bb88191baf574b8fbb4cb0d-firefighter-ai-command-center-gpt" target="_blank" rel="noopener noreferrer" className="cyber-button text-base sm:text-lg bg-gradient-to-r from-fire-600 to-flame-500">
+              Command Center GPT
+            </a>
             <a href="#features" className="px-6 py-3 bg-transparent border-2 border-white/20 hover:border-white/40 text-white rounded-lg 
                         transition-all duration-300 font-medium text-base sm:text-lg hover:bg-white/5">
               Learn More

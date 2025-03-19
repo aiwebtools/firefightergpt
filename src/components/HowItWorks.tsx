@@ -93,14 +93,23 @@ const HowItWorks: React.FC = () => {
           ))}
         </div>
 
-        <div className="mt-16 text-center">
+        <div className="mt-16 text-center flex flex-col sm:flex-row justify-center gap-4">
           <a 
             href="https://chatgpt.com/g/g-9IxNOg9vY-firefighter-gpt" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="cyber-button text-base inline-flex items-center gap-2"
+            className="cyber-button text-base inline-flex items-center justify-center gap-2"
           >
             Use Wildfire Firefighter GPT Now
+            <ArrowRight className="w-4 h-4" />
+          </a>
+          <a 
+            href="https://chatgpt.com/g/g-67dab29f4bb88191baf574b8fbb4cb0d-firefighter-ai-command-center-gpt" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="cyber-button text-base inline-flex items-center justify-center gap-2 bg-gradient-to-r from-fire-600 to-flame-500"
+          >
+            Command Center GPT
             <ArrowRight className="w-4 h-4" />
           </a>
         </div>
