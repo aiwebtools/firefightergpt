@@ -94,7 +94,7 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <a 
-                  href="https://aiwebtools.ai/terms-of-services" 
+                  href="https://aiwebtools.lovable.app/disclaimers" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-gray-300 hover:text-fire-400 transition-colors"
@@ -168,7 +168,7 @@ const Footer: React.FC = () => {
             </a>
             <span className="text-gray-600">|</span>
             <a 
-              href="https://aiwebtools.ai/terms-of-services" 
+              href="https://aiwebtools.lovable.app/disclaimers" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-sm text-gray-400 hover:text-fire-400 transition-colors"
@@ -176,6 +176,13 @@ const Footer: React.FC = () => {
               Terms of Service
             </a>
           </div>
+        </div>
+        
+        {/* Small disclaimer notice */}
+        <div className="border-t border-white/10 pt-4 mt-4">
+          <p className="text-xs text-gray-500 text-center">
+            For informational, educational, and research purposes only.
+          </p>
         </div>
       </div>
     </footer>
