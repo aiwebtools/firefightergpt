@@ -28,43 +28,43 @@ const Features: React.FC = () => {
   const features = [
     {
       icon: <Flame className="w-7 h-7 text-white" />,
-      title: "Real-Time Fire Analysis",
-      description: "Accurate assessment of active wildfires using real-time data from reliable sources to determine fire behavior patterns."
+      title: "AI-Powered Fire Analysis",
+      description: "Advanced AI web tools for accurate assessment of active wildfires using real-time data from reliable sources to determine fire behavior patterns."
     },
     {
       icon: <Wind className="w-7 h-7 text-white" />,
-      title: "Weather Integration",
-      description: "Incorporates current weather conditions including wind speed, direction, humidity, and forecasts for precise fire management."
+      title: "Smart Weather Integration",
+      description: "AI tools that incorporate current weather conditions including wind speed, direction, humidity, and forecasts for precise fire management."
     },
     {
       icon: <Map className="w-7 h-7 text-white" />,
-      title: "Terrain Analysis",
-      description: "Evaluates geographical features, vegetation types, and fuel loads to predict fire spread and identify critical intervention points."
+      title: "Intelligent Terrain Analysis",
+      description: "AI web tools that evaluate geographical features, vegetation types, and fuel loads to predict fire spread and identify critical intervention points."
     },
     {
       icon: <BarChart className="w-7 h-7 text-white" />,
-      title: "Resource Calculation",
-      description: "Determines exact resources needed for successful fire suppression based on fire size, intensity, and environmental factors."
+      title: "AI Resource Calculator",
+      description: "Advanced AI tools that determine exact resources needed for successful fire suppression based on fire size, intensity, and environmental factors."
     },
     {
       icon: <Target className="w-7 h-7 text-white" />,
-      title: "Precise Geo-Coordinates",
-      description: "Provides exact geographical coordinates for optimal fire suppression efforts, backed by scientific data and calculations."
+      title: "Precision AI Coordinates",
+      description: "AI web tools providing exact geographical coordinates for optimal fire suppression efforts, backed by scientific data and AI calculations."
     },
     {
       icon: <FileText className="w-7 h-7 text-white" />,
-      title: "Comprehensive Reports",
-      description: "Delivers detailed analysis reports on active fires, weather conditions, and recommended intervention strategies."
+      title: "AI-Generated Reports",
+      description: "Comprehensive AI tools that deliver detailed analysis reports on active fires, weather conditions, and recommended intervention strategies."
     },
     {
       icon: <Clock className="w-7 h-7 text-white" />,
-      title: "Proactive Guidance",
-      description: "Continuously provides next actionable steps to guide firefighters through the complete fire suppression process."
+      title: "Proactive AI Guidance",
+      description: "AI web tools that continuously provide next actionable steps to guide firefighters through the complete fire suppression process."
     },
     {
       icon: <CheckSquare className="w-7 h-7 text-white" />,
-      title: "Strategy Optimization",
-      description: "Recommends best firefighting practices and techniques based on specific fire scenarios and available resources."
+      title: "AI Strategy Optimization",
+      description: "Smart AI tools that recommend best firefighting practices and techniques based on specific fire scenarios and available resources."
     }
   ];
 
@@ -73,14 +73,14 @@ const Features: React.FC = () => {
       <div className="container mx-auto container-padding">
         <div className="text-center mb-12">
           <span className="inline-block px-3 py-1 text-xs font-semibold tracking-wider text-white uppercase bg-fire-600 rounded-full">
-            Capabilities
+            AI Web Tools Capabilities
           </span>
           <h2 className="mt-4 text-3xl md:text-4xl font-bold text-white">
-            Advanced Firefighting <span className="text-gradient">Intelligence</span>
+            Advanced AI Web Tools for <span className="text-gradient">Firefighting Intelligence</span>
           </h2>
           <p className="mt-4 text-gray-300 max-w-3xl mx-auto">
-            Firefighter GPT combines cutting-edge AI technology with real-time data analysis 
-            to provide precise, actionable guidance for wildfire management.
+            AI Web Tools combines cutting-edge artificial intelligence technology with real-time data analysis 
+            to provide precise, actionable guidance for wildfire management through our advanced AI tools suite.
           </p>
         </div>
 
