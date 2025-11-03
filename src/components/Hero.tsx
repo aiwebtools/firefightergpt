@@ -69,7 +69,7 @@ const Hero: React.FC = () => {
         <div className="max-w-4xl mx-auto glass-card p-3 animate-fade-in" style={{
           animationDelay: "600ms"
         }}>
-          <VideoEmbed videoId="lGsefWkYfq0" title="Firefighter GPT Anthem - AI Web Tools" autoplay={true} muted={false} />
+          <VideoEmbed videoId="kDu2SSP9Glw" title="Firefighter GPT Anthem - AI Web Tools" autoplay={true} muted={false} />
         </div>
       </div>
       
