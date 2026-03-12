@@ -27,7 +27,7 @@ const Logo: React.FC<LogoProps> = ({ size = 'md', withTagline = true, className 
         </h1>
         {withTagline && (
           <div className="text-[0.65rem] md:text-xs text-gray-300 font-medium">
-            Presented by <a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer" className="text-fire-400 hover:text-fire-300 transition-colors">AiWebTools.Ai</a>
+            Presented by <a href="https://aiwebtools.lovable.app/?via=aiwebtools" target="_blank" rel="noopener noreferrer" className="text-fire-400 hover:text-fire-300 transition-colors">AiWebTools.Ai</a>
           </div>
         )}
       </div>
