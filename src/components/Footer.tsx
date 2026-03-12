@@ -74,7 +74,7 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <a 
-                  href="https://www.aiwebtools.ai" 
+                  href="https://aiwebtools.lovable.app/?via=aiwebtools" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-gray-300 hover:text-fire-400 transition-colors"
@@ -132,7 +132,7 @@ const Footer: React.FC = () => {
             {/* More AI Tools button */}
             <div className="mt-6">
               <a 
-                href="https://www.aiwebtools.ai" 
+                href="https://aiwebtools.lovable.app/?via=aiwebtools" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-block px-6 py-2.5 bg-gradient-to-r from-cyber-blue to-cyber-purple rounded-full 
@@ -148,7 +148,7 @@ const Footer: React.FC = () => {
         <div className="border-t border-white/10 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm mb-4 md:mb-0">
             <a 
-              href="https://www.aiwebtools.ai" 
+              href="https://aiwebtools.lovable.app/?via=aiwebtools" 
               target="_blank" 
               rel="noopener noreferrer"
               className="hover:text-fire-400 transition-colors"
