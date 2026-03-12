@@ -132,7 +132,7 @@ const Footer: React.FC = () => {
             {/* More AI Tools button */}
             <div className="mt-6">
               <a 
-                href="https://www.aiwebtools.ai" 
+                href="https://aiwebtools.lovable.app/?via=aiwebtools" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-block px-6 py-2.5 bg-gradient-to-r from-cyber-blue to-cyber-purple rounded-full 
